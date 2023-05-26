@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <title>DevFolio Bootstrap Portfolio Template - Index</title>
+  <title>Dr. Satish Kumar</title>
   <meta content="" name="description" />
   <meta content="" name="keywords" />
 
@@ -18,6 +18,9 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- AOS scroll animation css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
@@ -45,7 +48,8 @@
           <li><a class="nav-link scrollto" href="#services">Administrative Work</a></li>
           <li><a class="nav-link scrollto" href="#sponsored-projects">Sponsored Projects</a></li>
           <li><a class="nav-link scrollto" href="#phd-supervision">Ph.D Thesis Supervision </a></li>
-          <li class="dropdown">
+          <li><a class="nav-link scrollto" href="#publication">Publication </a></li>
+          <!-- <li class="dropdown">
             <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -64,7 +68,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -75,7 +79,7 @@
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/satish-cover.png)" >
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -88,19 +92,19 @@
   </div>
   <!-- End Hero Section -->
 
-  <main id="main">
+  <main id="main" >
     <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
+    <section id="about" class="about-mf sect-pt4 route" >
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
               <div class="row">
                 <div class="col-md-6">
                   <div class="row">
-                    <div class="col-sm-6 col-md-5">
+                    <div class="col-sm-6 col-md-6">
                       <div class="about-img">
-                        <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="" />
+                        <img src="assets/img/satish.png" class="img-fluid rounded b-shadow-a" alt="satish" />
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
@@ -176,8 +180,8 @@
     <!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services-mf pt-5 route">
-      <div class="container">
+    <section id="services" class="services-mf pt-5 route" >
+      <div class="container" data-aos="zoom-in">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box">
@@ -263,7 +267,7 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="sponsored-projects" class="about-mf sect-pt4 route">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
@@ -304,7 +308,7 @@
 
     <!-- Ph.D Thesis Supervision section -->
     <section id="phd-supervision" class="about-mf sect-pt4 route">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
@@ -345,7 +349,33 @@
     </section>
     <!-- Ph.D Thesis Supervision ends -->
 
-    <!-- <--- ======= Testimonials Section ======= --> -->
+
+    <!-- Publication -->
+    <section id="publication" class="about-mf sect-pt4 route">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <h1>Some Publications </h1>
+                <ul>
+                  <li>Pondey B, Ragit S and Kumar S (2017), Optimization of biodiesel production from Sesamoideum oil by Taguchi’s Technique, International Journal of Applied Agricultural Research, 12(2), 255-265.</li>
+                  <li>Kumar S., Singh, M., Kumar, S., and Mohapatra, S.K. (2017), Optimum values of design variables for high specific speed centrifugal pumps, International Journal of Advance Research in Science and Engineering, 6(12), 1-7.</li>
+                  <li>Singh A, Juneja P, Kumar, U, Kumar, S and Mohapatra, S. K (2015), Influence of particle size and temperature on rheological characteristics of coal oil suspension, International journal of Engineering Technology, Management and Applied sciences, 3, 1, 44-49.</li>
+                  <li>Sharma R, Chakravarty A. and Kumar S. (2014), Physical chemical and Leaching properties of Rolling mill fly ash, International Journal of Science Technology, 1-4.</li>
+                  <li>Kumar S, Madan K and Mohapatra S.K (2013), Evaluation of flow behaviour of multi-sized fly ash slurry, International Journal of Materials Science, 8(2), 83-89.</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <!-- <--- ======= Testimonials Section ======= -->
     <!-- <div
         class="testimonials paralax-mf bg-image"
         style="background-image: url(assets/img/overlay-bg.jpg)"
@@ -699,6 +729,9 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- AOS scroll anilmation javascript-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

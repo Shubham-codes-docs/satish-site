@@ -1487,3 +1487,72 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+h1 {
+  
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+/* Customize the appearance of the publication section */
+
+#publication {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+  text-align: center;
+}
+
+#publication h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+#publication ol {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#publication li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #555;
+}
+
+/* Add box shadow to the publication container */
+.box-shadow-full {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Style the container and make it centered */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+
+/* Add some spacing to the rows */
+.row {
+  margin-bottom: 20px;
+}
+
+/* Add a zoom-in animation to the container */
+[data-aos="zoom-in"] {
+  animation: zoom-in 1s;
+}
+
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
