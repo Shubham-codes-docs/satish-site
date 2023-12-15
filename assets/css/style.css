@@ -510,7 +510,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   padding: 0;
   white-space: nowrap;
@@ -1552,6 +1552,29 @@ h1 {
   width: 10rem;
   border-radius: 50%;
   aspect-ratio: 1;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-gap: 0.4rem;
+}
+
+.img-fluid {
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  max-height: 18rem;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: all 0.2s ease-in-out;
+}
+
+.header-tint {
+  color: #fff;
+}
+
+.img-fluid:hover {
+  filter: grayscale(0%);
 }
 
 /* Add box shadow to the publication container */
