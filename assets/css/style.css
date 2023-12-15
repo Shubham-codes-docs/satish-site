@@ -1565,16 +1565,10 @@ h1 {
   aspect-ratio: 1/1;
   max-height: 18rem;
   cursor: pointer;
-  filter: grayscale(100%);
-  transition: all 0.2s ease-in-out;
 }
 
 .header-tint {
   color: #fff;
-}
-
-.img-fluid:hover {
-  filter: grayscale(0%);
 }
 
 /* Add box shadow to the publication container */
